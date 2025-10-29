@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Verification du runner
-        run: echo "Le Runner est bien actif sur ($hostname)"
+        run: echo "Le Runner est bien actif sur la machine local"
 
       - name: Hello World
-        run: echo "Hello World depuis le runner self-hosted ($hostname) ✅"
+        run: echo "Hello World depuis le runner self-hosted ✅"
